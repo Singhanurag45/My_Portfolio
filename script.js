@@ -2,6 +2,14 @@ document.addEventListener("DOMContentLoaded", function () {
     const titles = ["Frontend Developer", "Web Developer"]; // Titles to cycle
     const titleSpan = document.querySelector(".title");
     let index = 0;
+         
+    function toggleMenu() {
+    const navLinks = document.getElementById("nav-links");
+    navLinks.classList.toggle("active");
+
+    const mainWrapper = document.querySelector(".main-wrapper");
+    mainWrapper.classList.toggle("menu-open");
+  }
 
     function typeText(text, callback) {
         titleSpan.innerHTML = ""; // Clear previous text
