@@ -295,7 +295,6 @@ nav {
   display: flex;
   gap: 10px; /* spacing between icons */
   margin: 0px 0 100px 0;
-  /* border:2px solid white; */
 }
 
 .icon-circle:hover{
@@ -327,6 +326,7 @@ nav {
 }
 #download-CV{
   margin-right: 5px;
+  color: #000;
 }
 .btns {
   display: flex;
@@ -754,7 +754,7 @@ nav {
   padding:12px;
   width:150px;
   margin-top: 20px;
-  margin-left:280px ;
+  margin-left:320px ;
   color:#000;
   background-color: var( --main-color);
   border-radius:20px;
