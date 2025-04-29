@@ -713,14 +713,12 @@ nav {
 }
 .contact-section{
   height:80vh;
-  /* border:2px solid white; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .form{
-  /* border:2px solid white; */
   height: 70%;
   width:60%;
   display: grid;
@@ -733,7 +731,6 @@ nav {
   gap:8px;
 }
 .form div{
-  border:2px solid white;
   border-radius:5px;
   background-color: var(--snd-bf-color);
 }
@@ -751,21 +748,25 @@ nav {
 } 
 .item-5 {
   grid-area: Button;
+  /* border:2px solid white; */
 }
 .send-btn{
   padding:12px;
   width:150px;
   margin-top: 20px;
+  margin-left:280px ;
   color:#000;
   background-color: var( --main-color);
   border-radius:20px;
   box-shadow: 0 4px 6px rgba( 0 , 0 , 0.2);
+  justify-self: center;
 }
 .send-btn:hover{
   background-color: #3688e6;
   box-shadow: 0 6px 10px(0,0,0,0.3);
 }
   
+
 input[type="text"], input[type="email"], input[type="tel"], textarea {
   width: 100%;
   padding: 10px;
@@ -777,7 +778,7 @@ input[type="text"], input[type="email"], input[type="tel"], textarea {
   font-size: 16px;
 }
 textarea {
-    resize: none; /* Prevents resizing */
+  resize: none; /* Prevents resizing */
 }
 .footer p{
   text-align: center;
