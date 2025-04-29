@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anurag Singh | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <ul id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <li id="Portfolio-top"><a href="#portfolio">My Portfolio</a></li>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="home" id="home">    
+        <div class="container">
+            <!-- Left Profile -->
+            <div class="left-profile">
+                <h3 style="margin-top:60px;">Hii, Myself</h3>
+                <h1>Anurag singh</h1>
+                <h3>And I'm a <span class="title"></span></h3>
+
+                <p class="intro-text">
+                    I’m a Frontend Engineer blending clean code with creative design to build engaging, high-performance web experiences. I turn ideas into elegant, interactive interfaces that scale.
+                </p>
+                
+                <!-- Icons -->
+                <div class="icon-container">
+                    <a href="https://github.com/Singhanurag45" target="_blank" class="icon-circle twitter-circle">
+                        <i class="fa-brands fa-github"></i></i>
+                    </a> 
+                    <a href="https://leetcode.com/u/Anuragsingh_123/" target="_blank" class="icon-circle twitter-circle">
+                        <img src="leetcode.svg" alt="leetcode Icon">
+                    </a>  
+                    <a href="https://www.linkedin.com/in/anurag-singh-9598b4207" target="_blank" class="icon-circle linkedin-circle">
+                        <i class="fa-brands fa-linkedin"></i>  
+                    </a>             
+                </div>
+
+                <!-- buttons --> 
+                <div class="btns">
+                  <a href="/Resume.pdf" download>
+                   <p><button id="download-CV" class="btn-DC">Download CV</button></p>
+                </a>                 
+                </div>
+            </div>
+            
+            <!-- Right Profile -->
+            <div class="right-profile">
+                <img src="avatar.png" alt="Anurag singh Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div id="hero-section">
+            <div class="left-hero">
+                <img id="about-image" src="avatar.png" alt="Anurag singh Image"> 
+            </div>
+
+            <div class="right-hero">
+                <h1> About <span> me</span> </h1>
+                <h3> Frontend Developer </h3>
+
+                <p class="intro-about">
+                    I'm Anurag Singh, a pre-final year Computer Science student at MAIT Delhi. I have a strong foundation in C++, Java, and Python, with a keen interest in Data Structures and Algorithms, often solving complex problems efficiently. I'm also passionate about frontend development, where I design and build responsive, user-friendly web interfaces using HTML, CSS, JavaScript, and React.js. 
+                </p>
+                
+                <p><button class="read-btn">Read more</button></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="skill-section">
+            <h1 class="txt-exp"> My <span> skills </span> </h1>
+            <div class="skills-container">
+                <div class="leetcode-profile">
+                    <img id="leet-img" src="leetcodeProfile.png" alt="Leetcode-profile">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <section id="projects">
+        <h1 class="txt-pro"> Latest <span>Projects</span> </h1>
+        <div class="project-section">
+            <div class="cards">
+                <div class="card">
+                    <img src="ecommerce_website.png" alt="alternatetext 1">
+                    <div class="overlay">
+                        <h2>Ecommerce Website</h2>
+                        <p>Shopper: A modern React-powered shopping platform with a working cart, offering trendy new arrivals for men, women, and kids.</p>
+                        <a href="https://ecommerce-website-umber-theta.vercel.app/" class="button"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="quizApp.png" alt="alternatetext 2">
+                    <div class="overlay">
+                        <h2>Ultimate Quiz Challenge </h2>
+                        <p>It allows users to select categories, answer multiple-choice questions, track their score, and view results.</p>
+                        <a href="https://singhanurag45.github.io/quizApp/" class="button"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="WeatherApp.png" alt="image of WeatherApp">
+                    <div class="overlay">
+                        <h2>Weather App</h2>
+                        <p>Enter a city name, and get the current temperature, weather description, humidity, wind speed.</p>
+                        <a href="https://singhanurag45.github.io/Weather_App/" class="button"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="TextToSpeechConverter.png" alt="image of TextToSpeech-Converter">
+                    <div class="overlay">
+                        <h2>Web Design</h2>
+                        <p>It allows users to enter text, choose a voice, and listen to the converted speech using the Web Speech API.</p>
+                        <a href="https://singhanurag45.github.io/TextToSpeech/" class="button"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="imageSearchEngine.png" alt="Image of project image-search-Engine">
+                    <div class="overlay">
+                        <h2>Create Image SearchBar</h2>
+                        <p>It allows users to search for high-quality images using the Unsplash API and load more results seamlessly.</p>
+                        <a href="https://singhanurag45.github.io/CreateImaggeSearchBar/" class="button"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="musicPlayer.jpg" alt="Image of Poject music-Player">
+                    <div class="overlay">
+                        <h2>Music Player</h2>
+                        <p>It is a simple yet interactive web-based audio player that allows users to play, pause, and switch between different songs.</p>
+                        <a href="https://singhanurag45.github.io/MusicPlayer/" class="button"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h1 class="txt-contact"> Contact <span> Me</span> </h1>
+        <div class="contact-section">
+            <div class="form">
+                <input class="form-cont item-1" type="text" id="fullName" name="fullName" placeholder="Full Name..">
+                <input class="form-cont item-2" type="email" id="email" name="email" placeholder="Email Address.">
+                <input class="form-cont item-3" type="tel" id="mobile" name="mobile" placeholder="Mobile No..">
+                <input class="form-cont item-4" type="text" id="subject" name="subject" placeholder="Email Subject..">
+                <textarea class="form-cont item-5" type="text" id="message" name="message" rows="3" placeholder="Your Message.."></textarea>
+            </div>
+            <div>
+                <button class="send-btn">Send Message</button> 
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p> Copyright &copy; <span id="year"> 2025</span> by @Anurag singh. All rights reserved.</p>
+        <span><i id="top-home" class="fas fa-chevron-up"></i></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
