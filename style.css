@@ -714,7 +714,7 @@ nav {
 
 .txt-contact {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   font-size: 36px;
   color: var(--text-color);
   font-weight: bold;
@@ -812,7 +812,6 @@ textarea {
   align-items: center;
   height: 10vh;
   background-color: var(--snd-bf-color);
-
   }
 
 
