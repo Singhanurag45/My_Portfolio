@@ -27,8 +27,7 @@ body{
 h1, h2, h3 {
   font-family: 'Nunito', sans-serif;
 }
-
-   
+  
 nav {
   position: sticky;
   top: 0;
@@ -45,7 +44,6 @@ nav {
   list-style-type: none;
   display: flex;
   gap: 15px;
-  margin-left:80px;
 }
 
 #nav-links a{
@@ -64,7 +62,6 @@ nav {
 
 #Portfolio-top {
     margin-left: auto; /* Pushes Portfolio to the right */
-    margin-right:80px;
     padding: 10px;
     list-style: none;
 }
